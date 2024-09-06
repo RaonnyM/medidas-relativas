@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.primeira-sessao {
+    background-color: lightblue;
+    width: 500px;
+    height: 500px;
+    div{
+        background-color: darkblue;
+        width: 50vw;
+        height: 50vh;
+    }
+}
+
+.segunda-sessao {
+    background-color: lightgreen;
+    height: 60vh;
+    width: 60vh;
+//aninhamento(tag filha dentro de uma tag pai)
+    div{
+        background-color: darkgreen;
+        //% porcentagem
+        //relativa ao pai
+        height: 50%;
+        width: 50%;
+    }
+}
